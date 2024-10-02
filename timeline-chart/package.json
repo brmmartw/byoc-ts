@@ -1,1 +1,19 @@
-
+{
+  "name": "timeline-chart",
+  "version": "1.0.0",
+  "description": "A timeline chart using ThoughtSpot SDK and Highcharts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@thoughtspot/ts-chart-sdk": "^0.0.1",
+    "highcharts": "^9.3.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "vite": "^2.9.0",
+    "typescript": "^4.4.2"
+  }
+}
